@@ -228,9 +228,9 @@ export default function Home() {
       <header className="p-8 pt-12 flex justify-between items-start">
         <div>
           <h1 className="text-4xl font-black italic tracking-tighter uppercase leading-none">
-            Ferre<span className="text-[#F05A1A]">Red</span>
+            TECNISERVICIOS<span className="text-[#F05A1A]">JF</span>
           </h1>
-          <p className="text-[10px] tracking-[0.3em] text-[#5A6080] font-bold uppercase mt-2">Soluciones Industriales</p>
+          <p className="text-[10px] tracking-[0.3em] text-[#5A6080] font-bold uppercase mt-2">Soluciones para el Hogar</p>
         </div>
         <div className="bg-[#22C55E]/10 border border-[#22C55E]/20 px-3 py-1.5 rounded-lg flex items-center gap-2">
           <div className="w-1.5 h-1.5 bg-[#22C55E] rounded-full animate-pulse" />
