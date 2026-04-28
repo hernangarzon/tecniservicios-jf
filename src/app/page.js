@@ -124,7 +124,7 @@ export default function Home() {
   const equiposAlquiler = [
     {
       id: 'maquinaria',
-      nombre: 'Maquinaria Pesada',
+      nombre: 'Maquinaria',
       icono: '🏗️',
       color: 'from-[#3D3200] to-[#1A1500]',
       items: [
@@ -133,17 +133,7 @@ export default function Home() {
         { nombre: 'Pulidoras', precio: '' }
       ]
     },
-    {
-      id: 'alturas',
-      nombre: 'Trabajo en Alturas',
-      icono: '🪜',
-      color: 'from-[#0A1A1A] to-[#000A0A]',
-      items: [
-        { nombre: 'Andamio Tubular (Cuerpo)', precio: '15.000 / día' },
-        { nombre: 'Escalera de Extensión 24 pasos', precio: '35.000 / día' },
-        { nombre: 'Arnés de Seguridad Profesional', precio: '20.000 / día' }
-      ]
-    }
+    
   ];
 
   // --- FUNCIONES ---
