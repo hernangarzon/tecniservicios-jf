@@ -47,7 +47,7 @@ export default function MapComponent({ posicion, setPosicion }) {
     <div className="h-full w-full relative">
       <MapContainer 
         // El 'key' dinámico basado en un ID único es la clave para evitar el "reused container"
-        key="ferrered-map-v1"
+        key="TECNISERVICIOS_JF-map-v1"
         center={posicion} 
         zoom={15} 
         scrollWheelZoom={true}
