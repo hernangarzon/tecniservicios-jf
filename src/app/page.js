@@ -33,9 +33,9 @@ export default function Home() {
       icono: '🔧',
       color: 'from-[#0A1A1A] to-[#003D3D]',
       servicios: [
-        { nombre: 'Instalación de grifería', precio: '35.000' },
-        { nombre: 'Instalación eléctrica', precio: '45.000' },
-        { nombre: 'Montaje de muebles', precio: '60.000' }
+        { nombre: 'Instalación de grifería', precio: '' },
+        { nombre: 'Instalación eléctrica', precio: '' },
+        { nombre: 'Montaje de muebles', precio: '' }
       ]
     },
     {
@@ -44,9 +44,9 @@ export default function Home() {
       icono: '🧰',
       color: 'from-[#1A1A1A] to-[#2D2D2D]',
       servicios: [
-        { nombre: 'Fugas de agua', precio: '40.000' },
-        { nombre: 'Cortos eléctricos', precio: '50.000' },
-        { nombre: 'Arreglos generales', precio: '30.000' }
+        { nombre: 'Fugas de agua', precio: '' },
+        { nombre: 'Cortos eléctricos', precio: '' },
+        { nombre: 'Arreglos generales', precio: '' }
       ]
     },
     {
@@ -55,8 +55,8 @@ export default function Home() {
       icono: '🧱',
       color: 'from-[#1A0F00] to-[#3D2600]',
       servicios: [
-        { nombre: 'Resanes', precio: '25.000' },
-        { nombre: 'Pintura de paredes', precio: '50.000' }
+        { nombre: 'Resanes', precio: '' },
+        { nombre: 'Pintura de paredes', precio: '' }
       ]
     },
     {
@@ -65,8 +65,8 @@ export default function Home() {
       icono: '🧹',
       color: 'from-[#001A0A] to-[#003D14]',
       servicios: [
-        { nombre: 'Limpieza de tanques', precio: '80.000' },
-        { nombre: 'Mantenimiento preventivo', precio: '45.000' }
+        { nombre: 'Limpieza de tanques', precio: '' },
+        { nombre: 'Mantenimiento preventivo', precio: '' }
       ]
     },
     {
@@ -75,12 +75,12 @@ export default function Home() {
       icono: '🔐',
       color: 'from-[#1A0A00] to-[#3D1A00]',
       servicios: [
-        { nombre: 'Apertura de puertas', precio: '35.000' },
-        { nombre: 'Apertura de vehículos', precio: '45.000' },
-        { nombre: 'Instalación de cerraduras', precio: '60.000' },
-        { nombre: 'Cambio de cerraduras', precio: '55.000' },
-        { nombre: 'Reparación de cerraduras', precio: '40.000' },
-        { nombre: 'Duplicado de llaves', precio: '15.000' }
+        { nombre: 'Apertura de puertas', precio: '' },
+        { nombre: 'Apertura de vehículos', precio: '' },
+        { nombre: 'Instalación de cerraduras', precio: '' },
+        { nombre: 'Cambio de cerraduras', precio: '' },
+        { nombre: 'Reparación de cerraduras', precio: '' },
+        { nombre: 'Duplicado de llaves', precio: '' }
       ]
     }
   ];
@@ -93,9 +93,9 @@ export default function Home() {
       icono: '🛠️',
       color: 'from-[#001A3D] to-[#000A1A]',
       items: [
-        { nombre: 'Taladro Percutor Bosch', precio: '280.000', img: '🔌' },
-        { nombre: 'Juego de Destornilladores (x10)', precio: '45.000', img: '🪛' },
-        { nombre: 'Pulidora Angular 4.5"', precio: '195.000', img: '⚙️' }
+        { nombre: 'Martillos', precio: '', img: '🔌' },
+        { nombre: 'Juego de Destornilladores', precio: '', img: '🪛' },
+        { nombre: 'Taladros', precio: '', img: '⚙️' }
       ]
     },
     {
@@ -104,9 +104,8 @@ export default function Home() {
       icono: '🔩',
       color: 'from-[#1C2030] to-[#0D0F12]',
       items: [
-        { nombre: 'Tornillo Drywall 1" (Caja x100)', precio: '12.500', img: '🔩' },
-        { nombre: 'Chazo plástico 1/4 (Bolsa x50)', precio: '5.000', img: '⚪' },
-        { nombre: 'Perno Hexagonal 2" x 3/8', precio: '1.200', img: '🔩' }
+        { nombre: 'Tornilleria', precio: '', img: '🔩' },
+        { nombre: 'Chazos ', precio: '', img: '⚪' },
       ]
     },
     {
@@ -115,9 +114,9 @@ export default function Home() {
       icono: '⚡',
       color: 'from-[#1A1A00] to-[#0D0D00]',
       items: [
-        { nombre: 'Cable Encaquetado 12 AWG (mt)', precio: '4.800', img: '🔌' },
-        { nombre: 'Bombillo LED 9W Blanco', precio: '8.500', img: '💡' },
-        { nombre: 'Multímetro Digital Profesional', precio: '75.000', img: '📟' }
+        { nombre: 'Cable Encaquetado (mt)', precio: '', img: '🔌' },
+        { nombre: 'Bombillo LED', precio: '', img: '💡' },
+        { nombre: 'Multitomas', precio: '', img: '📟' }
       ]
     }
   ];
@@ -129,9 +128,9 @@ export default function Home() {
       icono: '🏗️',
       color: 'from-[#3D3200] to-[#1A1500]',
       items: [
-        { nombre: 'Mezcladora de Concreto (1 Bulto)', precio: '85.000 / día' },
-        { nombre: 'Vibrador de Concreto Diesel', precio: '60.000 / día' },
-        { nombre: 'Planta Eléctrica 3500W', precio: '95.000 / día' }
+        { nombre: 'Taladros', precio: '' },
+        { nombre: 'Herramientas', precio: '' },
+        { nombre: 'Pulidoras', precio: '' }
       ]
     },
     {
@@ -154,7 +153,7 @@ export default function Home() {
   };
 
   const enviarWhatsApp = (datos) => {
-    const numero = "+573123727954";
+    const numero = "+573169493808";
 
     // Formato universal de Google Maps
     const ubicacionLink = `https://www.google.com/maps?q=${posicion.lat},${posicion.lng}`;
@@ -186,12 +185,12 @@ export default function Home() {
 
     // Construcción del mensaje con los códigos Unicode
     const textoMensaje =
-      `*${emojiTitulo} ${tipoPedido} - FERRERED*\n\n` +
+      `*${emojiTitulo} ${tipoPedido} - TECNISERVICIOS_JF*\n\n` +
       `*${iconBox} ${etiquetaItem}:* ${datos.servicio}\n` +
       `*${iconPhone} TELÉFONO:* ${datos.telefono}\n\n` +
       `*${iconMap} UBICACIÓN (GPS):*\n${ubicacionLink}\n\n` +
       `*${iconHome} DETALLES ADICIONALES:*\n${datos.direccion}\n\n` +
-      `_Enviado desde la App FerreRed_`;
+      `_Enviado desde la App TECNISERVICIOS_JF_`;
 
     // El truco final: usamos window.open con la URL ya codificada
     const urlFinal = `https://wa.me/${numero}?text=${encodeURIComponent(textoMensaje)}`;
@@ -491,7 +490,7 @@ export default function Home() {
 
       {/* BOTÓN WHATSAPP FLOTANTE (Soporte directo) */}
       <a
-        href="https://wa.me/573123727954"
+        href="https://wa.me/573169493808"
         target="_blank"
         className="fixed bottom-24 right-6 w-14 h-14 bg-[#22C55E] rounded-full shadow-2xl flex items-center justify-center text-2xl z-50 animate-bounce transition-transform active:scale-90"
       >
