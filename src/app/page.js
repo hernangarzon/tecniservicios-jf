@@ -234,7 +234,7 @@ export default function Home() {
         </div>
         <div className="bg-[#22C55E]/10 border border-[#22C55E]/20 px-3 py-1.5 rounded-lg flex items-center gap-2">
           <div className="w-1.5 h-1.5 bg-[#22C55E] rounded-full animate-pulse" />
-          <span className="text-[#22C55E] text-[10px] font-bold uppercase tracking-wider">Online</span>
+          <span className="text-[#22C55E] text-[10px] font-bold uppercase tracking-wider"></span>
         </div>
       </header>
 
