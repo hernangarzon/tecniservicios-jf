@@ -1,26 +1,52 @@
 @import "tailwindcss";
 
+/* Definición de la paleta de colores de la propuesta */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #0D0F12;
+  --surface: #141720;
+  --surface2: #1C2030;
+  --border: #2A2F45;
+  --accent: #F05A1A;
+  --text-main: #F0F2F8;
+  --text-dim: #8A90A8;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    background-color: var(--bg);
+    color: var(--text-main);
+    /* Importante: Asegúrate de tener instalada la fuente Barlow o cámbiala por una sans-serif robusta */
+    font-family: 'Barlow', -apple-system, sans-serif;
+    min-height: 100vh;
+    margin: 0;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Capa de textura de grano (Grainy effect) */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 50;
+}
+
+/* Brillo ambiental superior naranja */
+body::after {
+  content: '';
+  position: fixed;
+  top: -150px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(240, 90, 26, 0.08) 0%, transparent 70%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* globals.css */
+* {
+  touch-action: manipulation;
 }
