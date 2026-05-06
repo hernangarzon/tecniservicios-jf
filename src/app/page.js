@@ -478,13 +478,19 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* BOTÓN WHATSAPP FLOTANTE (Soporte directo) */}
+      {/* BOTÓN WHATSAPP FLOTANTE CON ICONO OFICIAL */}
       <a
         href="https://wa.me/573169493808"
         target="_blank"
-        className="fixed bottom-24 right-6 w-14 h-14 bg-[#22C55E] rounded-full shadow-2xl flex items-center justify-center text-2xl z-50 animate-bounce transition-transform active:scale-90"
+        className="fixed bottom-24 right-6 w-14 h-14 bg-[#22C55E] rounded-full shadow-2xl flex items-center justify-center z-50 animate-bounce transition-transform active:scale-90"
       >
-        💬
+        <svg 
+          fill="currentColor" 
+          viewBox="0 0 24 24" 
+          className="w-8 h-8 text-white"
+        >
+          <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.484 8.412-.003 6.557-5.338 11.892-11.893 11.892-1.997-.001-3.951-.5-5.688-1.448l-6.309 1.656zm6.29-4.139l.363.216c1.552.923 3.33 1.411 5.14 1.412 5.333 0 9.673-4.34 9.675-9.672a9.61 9.61 0 00-2.827-6.839 9.61 9.61 0 00-6.84-2.825c-5.334 0-9.675 4.341-9.677 9.674-.001 1.83.501 3.614 1.453 5.166l.237.385-1.008 3.684 3.774-.99z"/>
+        </svg>
       </a>
 
     </main>
